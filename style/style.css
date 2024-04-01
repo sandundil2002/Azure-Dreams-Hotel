@@ -1,3 +1,8 @@
+body{
+    background-color: white;
+    color: black;
+}
+
 .navbar-brand{
     margin-left: 8%;
 }
@@ -8,4 +13,8 @@
 
 .nav-keys{
     margin-left: 40%;
+}
+
+.nav-container {
+    position: fixed;
 }
