@@ -1,20 +1,29 @@
-body{
+body {
     background-color: white;
     color: black;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-left: 8%;
 }
 
-.sub-title{
+.sub-title {
     margin-left: -22%;
 }
 
-.nav-keys{
+.nav-keys {
     margin-left: 40%;
 }
 
 .nav-container {
     position: fixed;
+}
+.about-img {
+    border-radius: 10px;
+    float: left;
+}
+
+.about {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
