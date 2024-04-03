@@ -27,3 +27,18 @@ body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+
+.book-btn {
+    width: 30%;
+    height: 10%;
+    margin-left: 35%;
+    border-radius: 5px;
+    background-color: rgb(232, 166, 166);
+    color: white;
+    font-weight: 600;
+}
+
+.book-btn:hover {
+    background-color: white;
+    color: brown;
+}
