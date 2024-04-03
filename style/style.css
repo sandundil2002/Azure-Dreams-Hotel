@@ -42,3 +42,34 @@ body {
     background-color: white;
     color: brown;
 }
+
+.titles {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 2%;
+}
+
+.service{
+    border: 1px solid gray;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    border-radius: 100% 100% 100% 0%;
+}
+
+.service:hover{
+    background-color: rgb(180, 178, 178);
+}
+
+.service-icon{
+    width: 60%;
+    height: 80%;
+}
