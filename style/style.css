@@ -28,7 +28,7 @@ body {
     font-style: normal;
 }
 
-.book-btn {
+#book-btn1 {
     width: 30%;
     height: 10%;
     margin-left: 35%;
@@ -38,7 +38,7 @@ body {
     font-weight: 600;
 }
 
-.book-btn:hover {
+#book-btn1:hover {
     background-color: white;
     color: brown;
 }
@@ -60,7 +60,7 @@ body {
 .service{
     border: 1px solid gray;
     width: 15%;
-    height: 200px;
+    height: 250px;
     text-align: center;
     border-radius: 100% 100% 100% 0%;
 }
@@ -72,4 +72,54 @@ body {
 .service-icon{
     width: 60%;
     height: 80%;
+}
+
+.book-section{
+    width: 100%;
+    height: 30%;
+    background-color: aqua;
+    text-align: center;
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#book-btn2{
+    width: 30%;
+    height: 40%;
+    margin-top: 8%;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#book-btn2:hover{
+    background-color: antiquewhite;
+}
+
+.room-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.rooms{
+    width: 30%;
+}
+
+.room-img{
+    width: 100%;
+}
+
+.room-book-price{
+    margin-left: 10%;
+    color: rgb(232, 166, 166);
+    font-weight: 500;
+}
+
+.room-book-btn{
+    margin-left: 7%;
+    border: 1px solid black;
+    border-radius: 7px;
 }
