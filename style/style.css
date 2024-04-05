@@ -15,9 +15,15 @@ body {
     margin-left: 40%;
 }
 
-.nav-container {
+.navbar {
     position: fixed;
 }
+
+.navbar:hover{
+    background-color: black;
+    color: white;
+}
+
 .about-img {
     border-radius: 10px;
     float: left;
@@ -108,6 +114,12 @@ body {
     width: 30%;
 }
 
+.rooms:hover{
+    background-color: rgb(48, 43, 43);
+    color: white;
+    opacity: 80%;
+}
+
 .room-img{
     width: 100%;
 }
@@ -122,4 +134,9 @@ body {
     margin-left: 7%;
     border: 1px solid black;
     border-radius: 7px;
+}
+
+.room-book-btn:hover{
+    background-color: rgb(50, 138, 50);
+    color: white;
 }
