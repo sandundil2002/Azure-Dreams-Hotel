@@ -140,3 +140,8 @@ body {
     background-color: rgb(50, 138, 50);
     color: white;
 }
+
+#hotel-tour{
+    width: 100%;
+    height: 40rem;
+}
