@@ -3,6 +3,8 @@ body {
     color: black;
 }
 
+/*------------------------------------------Navigation-bar--------------------------------------------*/
+
 .navbar-brand {
     margin-left: 8%;
 }
@@ -17,12 +19,15 @@ body {
 
 .navbar {
     position: fixed;
+    background-color: blue;
 }
 
 .navbar:hover{
     background-color: black;
     color: white;
 }
+
+/*------------------------------------------About-us--------------------------------------------*/
 
 .about-img {
     border-radius: 10px;
@@ -48,6 +53,8 @@ body {
     background-color: white;
     color: brown;
 }
+
+/*------------------------------------------Services--------------------------------------------*/
 
 .titles {
     font-family: "Poppins", sans-serif;
@@ -102,6 +109,8 @@ body {
     background-color: antiquewhite;
 }
 
+/*------------------------------------------Rooms--------------------------------------------*/
+
 .room-container{
     margin-left: 10%;
     margin-right: 10%;
@@ -140,6 +149,8 @@ body {
     background-color: rgb(50, 138, 50);
     color: white;
 }
+
+/*------------------------------------------Tour--------------------------------------------*/
 
 #hotel-tour{
     width: 100%;
