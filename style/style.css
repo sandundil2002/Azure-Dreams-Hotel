@@ -90,11 +90,12 @@ body {
 .book-section{
     width: 100%;
     height: 30%;
-    background-color: aqua;
+    background-color: rgb(168, 164, 164);
     text-align: center;
     font-size: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    color: white;
 }
 
 #book-btn2{
@@ -102,11 +103,13 @@ body {
     height: 40%;
     margin-top: 8%;
     font-size: large;
+    font-weight: 700;
     border-radius: 10px;
 }
 
 #book-btn2:hover{
-    background-color: antiquewhite;
+    background-color: rgb(55, 104, 55);
+    color: white;
 }
 
 /*------------------------------------------Rooms--------------------------------------------*/
@@ -155,4 +158,53 @@ body {
 #hotel-tour{
     width: 100%;
     height: 40rem;
+}
+
+/*-------------------------------------Restaurant & Bar---------------------------------------*/
+
+.restaurant-container{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.restaurant-img{
+    width: 50%;
+    float: left;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+}
+
+.foods{
+    display: flex;
+    border: 1px solid black;
+    width: 17.49rem;
+    height: 4.7rem;
+    background-color: rgb(221, 211, 193);
+    border-radius: 5px;
+}
+
+.food-img{
+    width: 35%;
+    height: 10%;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
+.food-desc{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.food-price{
+   margin-top: -5%;
+   margin-right: 3%; 
 }
