@@ -192,6 +192,11 @@ body {
     border-radius: 5px;
 }
 
+.foods:hover{
+    background-color: gray;
+    color: white;
+}
+
 .food-img{
     width: 35%;
     height: 10%;
