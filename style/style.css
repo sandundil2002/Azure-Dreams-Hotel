@@ -213,3 +213,23 @@ body {
    margin-top: -5%;
    margin-right: 3%; 
 }
+
+/*-------------------------------------Happy Customers---------------------------------------*/
+
+.happy-cus-container{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.happy-cus{
+    width: 31%;
+}
+
+.happy-cus:hover{
+    background-color: rgb(48, 43, 43);
+    color: white;
+    opacity: 80%;
+}
