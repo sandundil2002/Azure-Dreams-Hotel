@@ -233,3 +233,23 @@ body {
     color: white;
     opacity: 80%;
 }
+
+.review-section{
+    width: 100%;
+    background-color: rgb(168, 164, 164);
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    text-align: center;
+}
+
+.review-section>h2{
+    margin-left: 10%;;
+    margin-top: 2%;
+    font-size: 300%;
+    color: whitesmoke;
+}
+
+.review-section>h2>p{
+    font-size: small;
+}
