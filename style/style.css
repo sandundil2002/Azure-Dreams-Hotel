@@ -160,7 +160,7 @@ body {
     height: 40rem;
 }
 
-/*-------------------------------------Restaurant & Bar---------------------------------------*/
+/*-------------------------------------Restaurant-&-Bar---------------------------------------*/
 
 .restaurant-container{
     margin-left: 3%;
@@ -214,7 +214,7 @@ body {
    margin-right: 3%; 
 }
 
-/*-------------------------------------Happy Customers---------------------------------------*/
+/*-------------------------------------Happy-Customers---------------------------------------*/
 
 .happy-cus-container{
     margin-left: 3%;
@@ -252,4 +252,63 @@ body {
 
 .review-section>h2>p{
     font-size: small;
+}
+
+/*-------------------------------------Bottom-Bar---------------------------------------*/
+
+.bottom-bar{
+    padding: 5% 10% 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+
+.dreams{
+    font-size: 75%;
+    margin-top: -1.5%;
+    margin-bottom: 5%;
+}
+
+.social-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.social-img{
+    width: 10%;
+    height: 10%;
+}
+
+.question{
+    padding-left: 50%;
+    margin-top: -5%;
+}
+
+.question-1 {
+    display: flex;
+    align-items: center;
+    margin-left: -25%;
+}
+
+.question-1>img {
+    margin-right: 10px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+.copyright>h5{
+    font-size: 70%;
+}
+
+.copyright>h4{
+    font-size: 100%;
 }
