@@ -1,6 +1,6 @@
-body {
-    background-color: white;
-    color: black;
+body{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*------------------------------------------Navigation-bar--------------------------------------------*/
@@ -18,13 +18,8 @@ body {
 }
 
 .navbar {
-    position: fixed;
-    background-color: blue;
-}
-
-.navbar:hover{
-    background-color: black;
     color: white;
+    background-color: black;
 }
 
 /*------------------------------------------About-us--------------------------------------------*/
@@ -63,14 +58,15 @@ body {
 }
 
 .service-container{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     padding-left: 3%;
     padding-right: 3%;
-    gap: 2%;
+    justify-content: space-evenly;
 }
 
 .service{
+    flex-wrap: wrap;
     border: 1px solid gray;
     width: 15%;
     height: 250px;
@@ -118,12 +114,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 5%;
+    width: auto;
+    justify-content: space-evenly;
 }
 
 .rooms{
     width: 30%;
+    flex-wrap: wrap;
 }
 
 .rooms:hover{
@@ -290,7 +287,7 @@ body {
 .question-1 {
     display: flex;
     align-items: center;
-    margin-left: -25%;
+    margin-left: -10%;
 }
 
 .question-1>img {
@@ -311,4 +308,4 @@ body {
 
 .copyright>h4{
     font-size: 100%;
-}
+} 
