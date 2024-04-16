@@ -1,45 +1,171 @@
-body{
+body {
     margin: 0;
 }
 
 /*------------------------------------------Responsive-media-queries--------------------------------------------*/
 
 @media (max-width: 575px) {
-    .titles{
+    .titles {
         font-size: 25px;
     }
 
-    .about{
-        font-size: 15px;
+    .about {
+        font-size: 12px;
     }
 
-    .row{
+    .row {
         padding-left: 3%;
         padding-right: 3%;
+    }
+
+    #book-btn1 {
+        font-size: 14px;
+    }
+
+    .service {
+        height: 195px;
+        width: 170px;
+    }
+
+    .service-icon {
+        width: 60%;
+        height: 60%;
+    }
+
+    .service-text {
+        font-size: 10px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .titles {
-            font-size: 30px;
-        }
+        font-size: 30px;
+    }
+
+    .about {
+        font-size: 14px;
+    }
+
+    .row {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #book-btn1 {
+        font-size: 16px;
+    }
+
+    .service {
+        height: 200px;
+        width: 175px;
+    }
+
+    .service-icon {
+        width: 60%;
+        height: 60%;
+    }
+
+    .service-text {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .titles {
-            font-size: 35px;
-        }
+        font-size: 35px;
+    }
+
+    .about {
+        font-size: 16px;
+    }
+
+    .row {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #book-btn1 {
+        font-size: 18px;
+    }
+
+    .service {
+        height: 215px;
+        width: 190px;
+    }
+
+    .service-icon {
+        width: 60%;
+        height: 60%;
+    }
+
+    .service-text {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .titles {
-            font-size: 40px;
+        font-size: 40px;
+    }
+
+    .about {
+        font-size: 18px;
+    }
+
+    .row {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #book-btn1 {
+        font-size: 20px;
+    }
+
+    .service {
+        height: 215px;
+        width: 190px;
+    }
+
+    .service-icon {
+        width: 60%;
+        height: 60%;
+    }
+
+    .service-text {
+        font-size: 16px;
     }
 }
 
 @media (min-width: 1200px) {
     .titles {
-            font-size: 50px;
+        font-size: 50px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .row {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #book-btn1 {
+        font-size: 22px;
+    }
+
+    .service {
+        height: 225px;
+        width: 200px;
+    }
+
+    .service-icon {
+        width: 60%;
+        height: 60%;
+    }
+
+    .service-text {
+        font-size: 18px;
     }
 }
 
@@ -97,44 +223,38 @@ body{
     font-style: normal;
 }
 
-.service-container{
+.service-container {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     padding-left: 3%;
     padding-right: 3%;
     justify-content: space-evenly;
+    gap: 3%;
 }
 
-.service{
-    flex-wrap: wrap;
+.service {
     border: 1px solid gray;
-    width: 15%;
-    height: 250px;
     text-align: center;
     border-radius: 100% 100% 100% 0%;
 }
 
-.service:hover{
+.service:hover {
     background-color: rgb(180, 178, 178);
 }
 
-.service-icon{
-    width: 60%;
-    height: 80%;
-}
-
-.book-section{
+.book-section {
     width: 100%;
     height: 30%;
     background-color: rgb(168, 164, 164);
     text-align: center;
     font-size: 50px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     color: white;
 }
 
-#book-btn2{
+#book-btn2 {
     width: 30%;
     height: 40%;
     margin-top: 8%;
@@ -143,14 +263,14 @@ body{
     border-radius: 10px;
 }
 
-#book-btn2:hover{
+#book-btn2:hover {
     background-color: rgb(55, 104, 55);
     color: white;
 }
 
 /*------------------------------------------Rooms--------------------------------------------*/
 
-.room-container{
+.room-container {
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
@@ -158,48 +278,48 @@ body{
     justify-content: space-evenly;
 }
 
-.rooms{
+.rooms {
     width: 30%;
     flex-wrap: wrap;
 }
 
-.rooms:hover{
+.rooms:hover {
     background-color: rgb(48, 43, 43);
     color: white;
     opacity: 80%;
 }
 
-.room-img{
+.room-img {
     width: 100%;
 }
 
-.room-book-price{
+.room-book-price {
     margin-left: 10%;
     color: rgb(232, 166, 166);
     font-weight: 500;
 }
 
-.room-book-btn{
+.room-book-btn {
     margin-left: 7%;
     border: 1px solid black;
     border-radius: 7px;
 }
 
-.room-book-btn:hover{
+.room-book-btn:hover {
     background-color: rgb(50, 138, 50);
     color: white;
 }
 
 /*------------------------------------------Tour--------------------------------------------*/
 
-#hotel-tour{
+#hotel-tour {
     width: 100%;
     height: 40rem;
 }
 
 /*-------------------------------------Restaurant-&-Bar---------------------------------------*/
 
-.restaurant-container{
+.restaurant-container {
     margin-left: 3%;
     margin-right: 3%;
     display: flex;
@@ -207,20 +327,20 @@ body{
     gap: 1%;
 }
 
-.restaurant-img{
+.restaurant-img {
     width: 50%;
     float: left;
     border: 1px solid white;
     border-radius: 10px;
 }
 
-.food-container{
+.food-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3%;
 }
 
-.foods{
+.foods {
     display: flex;
     border: 1px solid black;
     width: 17.49rem;
@@ -229,31 +349,31 @@ body{
     border-radius: 5px;
 }
 
-.foods:hover{
+.foods:hover {
     background-color: gray;
     color: white;
 }
 
-.food-img{
+.food-img {
     width: 35%;
     height: 10%;
     border: 1px solid gray;
     border-radius: 100%;
 }
 
-.food-desc{
+.food-desc {
     margin-left: 5%;
     margin-top: 3%;
 }
 
-.food-price{
-   margin-top: -5%;
-   margin-right: 3%; 
+.food-price {
+    margin-top: -5%;
+    margin-right: 3%;
 }
 
 /*-------------------------------------Happy-Customers---------------------------------------*/
 
-.happy-cus-container{
+.happy-cus-container {
     margin-left: 3%;
     margin-right: 3%;
     display: flex;
@@ -261,65 +381,66 @@ body{
     gap: 3%;
 }
 
-.happy-cus{
+.happy-cus {
     width: 31%;
 }
 
-.happy-cus:hover{
+.happy-cus:hover {
     background-color: rgb(48, 43, 43);
     color: white;
     opacity: 80%;
 }
 
-.review-section{
+.review-section {
     width: 100%;
     background-color: rgb(168, 164, 164);
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 3%;
     text-align: center;
 }
 
-.review-section>h2{
-    margin-left: 10%;;
+.review-section>h2 {
+    margin-left: 10%;
+    ;
     margin-top: 2%;
     font-size: 300%;
     color: whitesmoke;
 }
 
-.review-section>h2>p{
+.review-section>h2>p {
     font-size: small;
 }
 
 /*-------------------------------------Bottom-Bar---------------------------------------*/
 
-.bottom-bar{
+.bottom-bar {
     padding: 5% 10% 5% 10%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     background-color: rgb(25, 24, 24);
     color: white;
 }
 
-.dreams{
+.dreams {
     font-size: 75%;
     margin-top: -1.5%;
     margin-bottom: 5%;
 }
 
-.social-img-container{
+.social-img-container {
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
 }
 
-.social-img{
+.social-img {
     width: 10%;
     height: 10%;
 }
 
-.question{
+.question {
     padding-left: 50%;
     margin-top: -5%;
 }
@@ -342,10 +463,10 @@ body{
     padding-top: 2%;
 }
 
-.copyright>h5{
+.copyright>h5 {
     font-size: 70%;
 }
 
-.copyright>h4{
+.copyright>h4 {
     font-size: 100%;
-} 
+}
