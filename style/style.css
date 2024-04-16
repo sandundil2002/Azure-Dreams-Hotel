@@ -51,6 +51,28 @@ body {
     .room-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .food-container {
+        padding-left: 2%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8%;
+        height: 900px;
+    }
+
+    .foods {
+        width: 180px;
+        height: 60px;
+    }
+
+    .food-desc {
+        font-size: 14px;
+    }
+
+    .food-price {
+        font-size: 16px;
     }
 }
 
@@ -101,6 +123,27 @@ body {
     .room-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .food-container {
+        padding-left: 2%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5%;
+        height: 650px;
+    }
+
+    .foods {
+        width: 240px;
+        height: 60px;
+    }
+
+    .food-desc {
+        font-size: 16px;
+    }
+
+    .food-price {
+        font-size: 18px;
     }
 }
 
@@ -158,6 +201,31 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .restaurant-img {
+        width: 50%;
+    }
+
+    .food-container {
+        padding-left: 3%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5%;
+        height: 750px;
+    }
+
+    .foods {
+        width: 160px;
+        height: 60px;
+    }
+
+    .food-desc {
+        font-size: 12px;
+    }
+
+    .food-price {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -213,6 +281,32 @@ body {
     .room-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        height: 800px;
+    }
+
+    .restaurant-img {
+        width: 50%;
+    }
+
+    .food-container {
+        padding-left: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5%;
+        height: 850px;
+    }
+
+    .foods {
+        width: 215px;
+        height: 70px;
+    }
+
+    .food-desc {
+        font-size: 16px;
+    }
+
+    .food-price {
+        font-size: 18px;
     }
 }
 
@@ -269,6 +363,27 @@ body {
     .room-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .restaurant-img {
+        width: 50%;
+    }
+
+    .food-container {
+        padding-left: 6%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5%;
+        height: 950px;
+    }
+
+    .foods {
+        width: 250px;
+        height: 75px;
+    }
+
+    .food-desc {
+        font-size: 18px;
     }
 }
 
@@ -412,27 +527,16 @@ body {
     margin-right: 3%;
     display: flex;
     flex-wrap: wrap;
-    gap: 1%;
 }
 
 .restaurant-img {
-    width: 50%;
-    float: left;
     border: 1px solid white;
     border-radius: 10px;
-}
-
-.food-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3%;
 }
 
 .foods {
     display: flex;
     border: 1px solid black;
-    width: 17.49rem;
-    height: 4.7rem;
     background-color: rgb(221, 211, 193);
     border-radius: 5px;
 }
