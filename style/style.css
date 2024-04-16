@@ -1,6 +1,46 @@
 body{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0;
+}
+
+/*------------------------------------------Responsive-media-queries--------------------------------------------*/
+
+@media (max-width: 575px) {
+    .titles{
+        font-size: 25px;
+    }
+
+    .about{
+        font-size: 15px;
+    }
+
+    .row{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .titles {
+            font-size: 30px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .titles {
+            font-size: 35px;
+        }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .titles {
+            font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .titles {
+            font-size: 50px;
+    }
 }
 
 /*------------------------------------------Navigation-bar--------------------------------------------*/
@@ -53,7 +93,7 @@ body{
 
 .titles {
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
 }
 
