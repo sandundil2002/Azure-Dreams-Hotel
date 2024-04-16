@@ -47,6 +47,11 @@ body {
         font-size: 18px;
         font-weight: 600;
     }
+
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -91,6 +96,11 @@ body {
         margin-top: 7%;
         font-size: 20px;
         font-weight: 600;
+    }
+
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -143,6 +153,11 @@ body {
         font-size: 22px;
         font-weight: 600;
     }
+
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -194,6 +209,11 @@ body {
         font-size: 24px;
         font-weight: 600;
     }
+
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 1200px) {
@@ -244,6 +264,11 @@ body {
         margin-top: 6%;
         font-size: 35px;
         font-weight: 600;
+    }
+
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -343,14 +368,7 @@ body {
 .room-container {
     margin-left: 10%;
     margin-right: 10%;
-    display: flex;
-    width: auto;
-    justify-content: space-evenly;
-}
-
-.rooms {
-    width: 30%;
-    flex-wrap: wrap;
+    gap: 5%;
 }
 
 .rooms:hover {
@@ -360,7 +378,7 @@ body {
 }
 
 .room-img {
-    width: 100%;
+    width: auto;
 }
 
 .room-book-price {
