@@ -51,13 +51,13 @@ body {
     .room-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
+
     }
 
     .food-container {
         padding-left: 2%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 8%;
         height: 900px;
     }
@@ -73,6 +73,16 @@ body {
 
     .food-price {
         font-size: 16px;
+    }
+
+    .happy-cus-container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .happy-cus {
+        width: 400px;
+        font-size: 15px;
     }
 }
 
@@ -128,7 +138,7 @@ body {
     .food-container {
         padding-left: 2%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5%;
         height: 650px;
     }
@@ -144,6 +154,11 @@ body {
 
     .food-price {
         font-size: 18px;
+    }
+
+    .happy-cus-container {
+        padding-left: 8%;
+        padding-right: 8%;
     }
 }
 
@@ -209,7 +224,7 @@ body {
     .food-container {
         padding-left: 3%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5%;
         height: 750px;
     }
@@ -225,6 +240,11 @@ body {
 
     .food-price {
         font-size: 14px;
+    }
+
+    .happy-cus-container {
+        padding-left: 12%;
+        padding-right: 12%;
     }
 }
 
@@ -281,7 +301,7 @@ body {
     .room-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: 800px;
+        height: 1150px;
     }
 
     .restaurant-img {
@@ -306,6 +326,19 @@ body {
     }
 
     .food-price {
+        font-size: 18px;
+    }
+
+    .happy-cus-container {
+        padding-left: 3%;
+        padding-right: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+
+    .happy-cus {
+        width: 400px;
         font-size: 18px;
     }
 }
@@ -384,6 +417,18 @@ body {
 
     .food-desc {
         font-size: 18px;
+    }
+
+    .happy-cus-container {
+        padding-left: 3%;
+        padding-right: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+
+    .happy-cus {
+        width: 31%;
     }
 }
 
@@ -568,13 +613,6 @@ body {
 .happy-cus-container {
     margin-left: 3%;
     margin-right: 3%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3%;
-}
-
-.happy-cus {
-    width: 31%;
 }
 
 .happy-cus:hover {
