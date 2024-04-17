@@ -84,6 +84,17 @@ body {
         width: 400px;
         font-size: 15px;
     }
+
+    .review-section>h2 {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 2%;
+        font-size: 25px;
+    }
+
+    .review-section>h2>p {
+        font-size:10px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -159,6 +170,17 @@ body {
     .happy-cus-container {
         padding-left: 8%;
         padding-right: 8%;
+    }
+
+    .review-section>h2 {
+        margin-left: 5%;
+        margin-right: 4%;
+        margin-top: 2%;
+        font-size: 30px;
+    }
+
+    .review-section>h2>p {
+        font-size: 12px;
     }
 }
 
@@ -245,6 +267,17 @@ body {
     .happy-cus-container {
         padding-left: 12%;
         padding-right: 12%;
+    }
+
+    .review-section>h2 {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 2%;
+        font-size: 40px;
+    }
+
+    .review-section>h2>p {
+        font-size: 15px;
     }
 }
 
@@ -341,6 +374,17 @@ body {
         width: 400px;
         font-size: 18px;
     }
+
+    .review-section>h2 {
+        margin-left: 6%;
+        margin-right: 5%;
+        margin-top: 2%;
+        font-size: 40px;
+    }
+
+    .review-section>h2>p {
+        font-size: small;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -429,6 +473,18 @@ body {
 
     .happy-cus {
         width: 31%;
+    }
+
+    .review-section>h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+        font-size: 300%;
+        color: whitesmoke;
+    }
+
+    .review-section>h2>p {
+        font-size: small;
     }
 }
 
@@ -631,15 +687,7 @@ body {
 }
 
 .review-section>h2 {
-    margin-left: 10%;
-    ;
-    margin-top: 2%;
-    font-size: 300%;
     color: whitesmoke;
-}
-
-.review-section>h2>p {
-    font-size: small;
 }
 
 /*-------------------------------------Bottom-Bar---------------------------------------*/
