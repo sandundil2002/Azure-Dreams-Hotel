@@ -13,13 +13,13 @@ body {
         font-size: 12px;
     }
 
-    .row {
-        padding-left: 3%;
-        padding-right: 3%;
+    .about-img {
+        width: 350px;
     }
 
     #book-btn1 {
         font-size: 14px;
+        margin-left: 30%;
     }
 
     .service {
@@ -125,13 +125,13 @@ body {
         font-size: 14px;
     }
 
-    .row {
-        padding-left: 3%;
-        padding-right: 3%;
+    .about-img {
+        width: 600px;
     }
 
     #book-btn1 {
-        font-size: 16px;
+        font-size: 18px;
+        margin-left: 35%;
     }
 
     .service {
@@ -228,17 +228,25 @@ body {
         font-size: 35px;
     }
 
-    .about {
-        font-size: 16px;
+    .about-container {
+        display: flex;
     }
 
-    .row {
-        padding-left: 3%;
-        padding-right: 3%;
+    .about-img {
+        width: 500px;
+    }
+
+    .about {
+        font-size: 14px;
     }
 
     #book-btn1 {
         font-size: 18px;
+        width: 40%;
+        height: 10%;
+        margin-left: -20%;
+        font-weight: 600;
+        margin-top: 7%;
     }
 
     .service {
@@ -354,17 +362,29 @@ body {
         font-size: 40px;
     }
 
-    .about {
-        font-size: 18px;
+    .about-container {
+        display: flex;
     }
 
-    .row {
-        padding-left: 3%;
-        padding-right: 3%;
+    .about-img {
+        width: 600px;
+    }
+
+    .about {
+        font-size: 16px;
+    }
+
+    .about-title {
+        font-size: 24px;
     }
 
     #book-btn1 {
         font-size: 20px;
+        width: 40%;
+        height: 10%;
+        margin-left: -20%;
+        font-weight: 600;
+        margin-top: 7%;
     }
 
     .service {
@@ -485,13 +505,29 @@ body {
         font-size: 20px;
     }
 
-    .row {
-        padding-left: 3%;
-        padding-right: 3%;
+    .about-container {
+        display: flex;
+    }
+
+    .about-img {
+        width: 700px;
+    }
+
+    .about-title {
+        font-size: 28px;
+    }
+
+    .about {
+        font-size: 20px;
     }
 
     #book-btn1 {
         font-size: 22px;
+        width: 40%;
+        height: 12%;
+        margin-left: -20%;
+        font-weight: 600;
+        margin-top: 7%;
     }
 
     .service {
@@ -622,6 +658,8 @@ body {
 .about-img {
     border-radius: 10px;
     float: left;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .about {
@@ -630,13 +668,10 @@ body {
 }
 
 #book-btn1 {
-    width: 30%;
-    height: 10%;
-    margin-left: 35%;
     border-radius: 5px;
     background-color: rgb(232, 166, 166);
     color: white;
-    font-weight: 600;
+    cursor: pointer;
 }
 
 #book-btn1:hover {
