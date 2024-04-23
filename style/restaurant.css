@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-left: 8%;
+}
+
+.sub-title {
+    margin-left: -22%;
+}
+
+.nav-keys {
+    margin-left: 40%;
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+}
+
+.titles {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.restaurant-img {
+    width: 98%;
+    margin: 0 auto;
+    padding-left: 2%;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.gallery-container img {
+    width: 25%;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .gallery-container img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-container img {
+        width: 100%;
+    }
+}
