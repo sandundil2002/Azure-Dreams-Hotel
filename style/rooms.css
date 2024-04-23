@@ -1,0 +1,101 @@
+@media (max-width: 575px) {
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 1150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .room-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.navbar-brand {
+    margin-left: 8%;
+}
+
+.sub-title {
+    margin-left: -22%;
+}
+
+.nav-keys {
+    margin-left: 40%;
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+}
+
+.titles {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.room-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 5%;
+}
+
+.rooms:hover {
+    background-color: rgb(48, 43, 43);
+    color: white;
+    opacity: 80%;
+}
+
+.room-img {
+    width: auto;
+}
+
+.room-book-price {
+    margin-left: 10%;
+    color: rgb(232, 166, 166);
+    font-weight: 500;
+}
+
+.room-book-btn {
+    margin-left: 7%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.room-book-btn:hover {
+    background-color: rgb(50, 138, 50);
+    color: white;
+}
+
+.room-page {
+    text-align: center;
+    font-weight: 500;
+}
+
+.room-page img {
+    width: 95%;
+    margin: 0 auto;
+}
