@@ -1,3 +1,190 @@
+@media (max-width: 575px) {
+    .contact-img {
+        width: 98%;
+        margin: 0 auto;
+        padding-left: 2%;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-form {
+        margin-left: 8%;
+    }
+
+    .question {
+        margin-top: 10%;
+        padding-left: 8%;
+    }
+
+    .question>h6 {
+        font-size: 28px;
+    }
+
+    .question-1 {
+        display: flex;
+        align-items: center;
+        margin-left: -10%;
+    }
+
+    .question-1>img {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .contact-img {
+        width: 98%;
+        margin: 0 auto;
+        padding-left: 2%;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-form {
+        margin-left: 8%;
+    }
+
+    .question {
+        margin-top: 10%;
+        padding-left: 8%;
+    }
+
+    .question>h6 {
+        font-size: 28px;
+    }
+
+    .question-1 {
+        display: flex;
+        align-items: center;
+        margin-left: -10%;
+    }
+
+    .question-1>img {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact-img {
+        width: 98%;
+        margin: 0 auto;
+        padding-left: 2%;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-form {
+        margin-left: 8%;
+    }
+
+    .bottom-bar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .question {
+        padding-left: 50%;
+        margin-top: -5%;
+    }
+
+    .question>h6 {
+        font-size: 18px;
+    }
+
+    .question-1 {
+        display: flex;
+        align-items: center;
+        margin-left: -10%;
+    }
+
+    .question-1>h6 {
+        font-size: 16px;
+    }
+
+    .question-1>img {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contact-img {
+        width: 95%;
+        height: 98%;
+        margin: 0 auto;
+        padding-left: 2%;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bottom-bar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .question {
+        padding-left: 50%;
+        margin-top: -5%;
+    }
+
+    .question-1 {
+        display: flex;
+        align-items: center;
+        margin-left: -10%;
+    }
+
+    .question-1>img {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-img {
+        width: 95%;
+        margin: 0 auto;
+        padding-left: 2%;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bottom-bar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .question {
+        padding-left: 50%;
+        margin-top: -5%;
+    }
+
+    .question-1 {
+        display: flex;
+        align-items: center;
+        margin-left: -10%;
+    }
+
+    .question-1>img {
+        margin-right: 10px;
+    }
+}
+
 .navbar-brand {
     margin-left: 8%;
 }
@@ -21,8 +208,45 @@
     font-style: normal;
 }
 
-.contact-img {
-    width: 98%;
-    margin: 0 auto;
-    padding-left: 2%;
+.contact-form {
+    width: 80%;
+}
+
+.bottom-bar {
+    padding: 5% 10% 5% 10%;
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+
+.dreams {
+    font-size: 75%;
+    margin-top: -1.5%;
+    margin-bottom: 5%;
+}
+
+.social-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.social-img {
+    width: 10%;
+    height: 10%;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+.copyright>h5 {
+    font-size: 70%;
+}
+
+.copyright>h4 {
+    font-size: 100%;
 }
