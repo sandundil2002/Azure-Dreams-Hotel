@@ -1,0 +1,28 @@
+.navbar-brand {
+    margin-left: 8%;
+}
+
+.sub-title {
+    margin-left: -22%;
+}
+
+.nav-keys {
+    margin-left: 40%;
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+}
+
+.titles {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contact-img {
+    width: 98%;
+    margin: 0 auto;
+    padding-left: 2%;
+}
