@@ -8,7 +8,7 @@
     }
 
     #book-btn1 {
-                    width: 60%;
+        width: 60%;
         font-size: 16px;
     }
 
@@ -43,24 +43,11 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .food-container {
-        padding-left: 2%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8%;
-        height: 900px;
-    }
-
-    .foods {
-        width: 180px;
-        height: 60px;
-    }
+        .foods {
+            width: 80%;
+        }
 
     .food-desc {
-        font-size: 14px;
-    }
-
-    .food-price {
         font-size: 16px;
     }
 
@@ -111,7 +98,7 @@
     }
 
     #book-btn1 {
-                    width: 35%;
+        width: 35%;
         font-size: 18px;
     }
 
@@ -146,17 +133,8 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .food-container {
-        padding-left: 2%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5%;
-        height: 650px;
-    }
-
-    .foods {
-        width: 240px;
-        height: 60px;
+    .foods{
+        width: 40%;
     }
 
     .food-desc {
@@ -214,7 +192,7 @@
     }
 
     #book-btn1 {
-                    width: 30%;
+        width: 30%;
         font-size: 18px;
         font-weight: 600;
     }
@@ -256,29 +234,12 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .restaurant-img {
-        width: 50%;
-    }
-
-    .food-container {
-        padding-left: 3%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5%;
-        height: 750px;
-    }
-
-    .foods {
-        width: 160px;
-        height: 60px;
+    .foods{
+        width: 30%;
     }
 
     .food-desc {
-        font-size: 12px;
-    }
-
-    .food-price {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .happy-cus-container {
@@ -341,7 +302,7 @@
     }
 
     #book-btn1 {
-                    width: 25%;
+        width: 25%;
         font-size: 20px;
         font-weight: 600;
     }
@@ -384,25 +345,12 @@
         height: 1150px;
     }
 
-    .restaurant-img {
-        width: 50%;
-    }
-
-    .food-container {
-        padding-left: 3%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5%;
-        height: 850px;
-    }
-
     .foods {
-        width: 215px;
-        height: 70px;
+        width: 30%;
     }
 
     .food-desc {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .food-price {
@@ -511,25 +459,12 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .restaurant-img {
-        width: 50%;
-    }
-
-    .food-container {
-        padding-left: 6%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5%;
-        height: 950px;
-    }
-
     .foods {
-        width: 250px;
-        height: 75px;
+        width: 20%;
     }
 
     .food-desc {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .happy-cus-container {

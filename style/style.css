@@ -147,10 +147,9 @@ body {
 /*-------------------------------------Restaurant-&-Bar---------------------------------------*/
 
 .restaurant-container {
-    margin-left: 3%;
-    margin-right: 3%;
-    display: flex;
-    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url("/assets/image/bar\ backgrounf.png");
 }
 
 .restaurant-img {
@@ -158,11 +157,24 @@ body {
     border-radius: 10px;
 }
 
+.food-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5%;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
 .foods {
     display: flex;
     border: 1px solid black;
     background-color: rgb(221, 211, 193);
     border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .foods:hover {
@@ -171,20 +183,18 @@ body {
 }
 
 .food-img {
-    width: 35%;
-    height: 10%;
-    border: 1px solid gray;
+    width: 25%;
+    border: 2px solid gray;
     border-radius: 100%;
 }
 
 .food-desc {
-    margin-left: 5%;
-    margin-top: 3%;
+    margin: 5%;
 }
 
 .food-price {
-    margin-top: -5%;
-    margin-right: 3%;
+    margin: 5%;
+    text-align: center;
 }
 
 /*-------------------------------------Happy-Customers---------------------------------------*/
