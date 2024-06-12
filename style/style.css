@@ -22,17 +22,25 @@ body {
 }
 
 /*------------------------------------------About-us--------------------------------------------*/
-
-.about-img {
-    border-radius: 10px;
-    float: left;
+.about-container {
+    width: 100%;
     padding-left: 2%;
     padding-right: 2%;
+    text-align: center;
+}
+
+.about-img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .about {
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    text-align: justify;
 }
 
 #book-btn1 {
@@ -40,11 +48,11 @@ body {
     background-color: rgb(232, 166, 166);
     color: white;
     cursor: pointer;
+    line-height: 2.5rem;
 }
 
 #book-btn1:hover {
-    background-color: white;
-    color: brown;
+    background-color: rgb(71, 71, 223);
 }
 
 /*------------------------------------------Services--------------------------------------------*/
@@ -53,6 +61,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    color: blue;
 }
 
 .service-container {
