@@ -98,7 +98,7 @@ body {
 }
 
 #book-btn2:hover {
-    background-color: rgb(55, 104, 55);
+    background-color: rgb(71, 71, 223);
     color: white;
 }
 
@@ -142,6 +142,16 @@ body {
 #hotel-tour {
     width: 100%;
     height: 40rem;
+}
+
+#video-container{
+    margin: 1%;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+video{
+    padding: 1%;
 }
 
 /*-------------------------------------Restaurant-&-Bar---------------------------------------*/
@@ -198,6 +208,51 @@ body {
 }
 
 /*-------------------------------------Happy-Customers---------------------------------------*/
+.feedback-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 90%;
+    text-align: center;
+    transition: max-width 0.3s ease;
+    margin: 4%;
+}
+
+.customer-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.customer-name {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.customer-feedback {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.star-rating span {
+    font-size: 1.5em;
+    color: gold;
+    margin: 0 2px;
+}
 
 .happy-cus-container {
     margin-left: 3%;
@@ -217,6 +272,7 @@ body {
     flex-wrap: wrap;
     gap: 3%;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .review-section>h2 {

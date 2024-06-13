@@ -43,33 +43,12 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-        .foods {
-            width: 80%;
-        }
+    .foods {
+        width: 80%;
+    }
 
     .food-desc {
         font-size: 16px;
-    }
-
-    .happy-cus-container {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-
-    .happy-cus {
-        width: 400px;
-        font-size: 15px;
-    }
-
-    .review-section>h2 {
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-top: 2%;
-        font-size: 25px;
-    }
-
-    .review-section>h2>p {
-        font-size: 10px;
     }
 
     .question {
@@ -133,7 +112,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .foods{
+    .foods {
         width: 40%;
     }
 
@@ -143,22 +122,6 @@
 
     .food-price {
         font-size: 18px;
-    }
-
-    .happy-cus-container {
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-
-    .review-section>h2 {
-        margin-left: 5%;
-        margin-right: 4%;
-        margin-top: 2%;
-        font-size: 30px;
-    }
-
-    .review-section>h2>p {
-        font-size: 12px;
     }
 
     .question {
@@ -234,27 +197,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .foods{
+    .foods {
         width: 30%;
     }
 
     .food-desc {
-        font-size: 15px;
-    }
-
-    .happy-cus-container {
-        padding-left: 12%;
-        padding-right: 12%;
-    }
-
-    .review-section>h2 {
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-top: 2%;
-        font-size: 40px;
-    }
-
-    .review-section>h2>p {
         font-size: 15px;
     }
 
@@ -357,30 +304,6 @@
         font-size: 18px;
     }
 
-    .happy-cus-container {
-        padding-left: 3%;
-        padding-right: 3%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3%;
-    }
-
-    .happy-cus {
-        width: 400px;
-        font-size: 18px;
-    }
-
-    .review-section>h2 {
-        margin-left: 6%;
-        margin-right: 5%;
-        margin-top: 2%;
-        font-size: 40px;
-    }
-
-    .review-section>h2>p {
-        font-size: small;
-    }
-
     .bottom-bar {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -465,30 +388,6 @@
 
     .food-desc {
         font-size: 17px;
-    }
-
-    .happy-cus-container {
-        padding-left: 3%;
-        padding-right: 3%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3%;
-    }
-
-    .happy-cus {
-        width: 31%;
-    }
-
-    .review-section>h2 {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 2%;
-        font-size: 300%;
-        color: whitesmoke;
-    }
-
-    .review-section>h2>p {
-        font-size: small;
     }
 
     .bottom-bar {

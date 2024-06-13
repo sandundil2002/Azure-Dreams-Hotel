@@ -212,7 +212,9 @@
 
     <h1 class="text-center titles">Take a tour</h1> <br>
 
-    <video controls autoplay id="hotel-tour" src="assets/video/hotel tour.mp4"></video><br><br><br>
+    <div id="video-container">
+        <video controls autoplay id="hotel-tour" src="assets/video/hotel tour.mp4"></video>
+    </div>
 
     <!----------------------------------------------Restaurant & Bar---------------------------------------------------->
 
@@ -257,7 +259,7 @@
 
             <div class="foods">
                 <img src="assets/image/food 8.png" class="img-fluid food-img" alt="">
-                <h5 class="food-desc">White Rice & Omlet <br> <span class="food-price">$19.99</span></h5> 
+                <h5 class="food-desc">White Rice & Omlet <br> <span class="food-price">$19.99</span></h5>
             </div>
 
             <div class="foods">
@@ -292,7 +294,7 @@
 
             <div class="foods">
                 <img src="assets/image/food 15.png" class="img-fluid food-img" alt="">
-                <h5 class="food-desc">Parota With Fish <br> <span class="food-price">$19.99</span></h5> 
+                <h5 class="food-desc">Parota With Fish <br> <span class="food-price">$19.99</span></h5>
             </div>
 
             <div class="foods">
@@ -324,56 +326,56 @@
 
     <!----------------------------------------------Happy Customers---------------------------------------------------->
 
-    <h1 class="text-center titles">Happy Customers</h1><br><br>
+    <h1 class="text-center titles">Happy Customers</h1>
 
     <div class="happy-cus-container">
-        <div class="card mb-3 happy-cus" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="assets/image/people 2.png" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Roger Scott</h5>
-                        <p class="card-text">"Our stay at Azure Dreams Hotel was exceptional! The staff's hospitality,
-                            the luxurious rooms, and the stunning views
-                            made it a truly memorable exiting experience."</p>
-                        <p class="card-text "><small class="text-body-secondary ">Last updated 1 month ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card mb-3 happy-cus" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="assets/image/people 1.png" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">John Mash</h5>
-                        <p class="card-text">"We had a fantastic time at Azure Dreams Hotel! The attention to detail,
-                            delicious food, and serene ambiance created the perfect getaway Thank's for your
-                            service."</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 2 week ago</small></p>
-                    </div>
+        <div class="feedback-card">
+            <img src="assets/image/people 2.png" alt="Customer Photo" class="customer-photo">
+            <div class="feedback-content">
+                <h3 class="customer-name">Roger Scott</h3>
+                <p class="customer-feedback">"Our stay at Azure Dreams Hotel was exceptional! The staff's hospitality,
+                    the luxurious rooms, and the stunning views
+                    made it a truly memorable exiting experience."</p>
+                <div class="star-rating">
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9734;</span>
                 </div>
             </div>
         </div>
 
-        <div class="card mb-3 happy-cus" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="assets/image/people 3.png" class="img-fluid rounded-start" alt="...">
+        <div class="feedback-card">
+            <img src="assets/image/people 1.png" alt="Customer Photo" class="customer-photo">
+            <div class="feedback-content">
+                <h3 class="customer-name">John Mash</h3>
+                <p class="customer-feedback">"We had a fantastic time at Azure Dreams Hotel! The attention to detail,
+                    delicious food, and serene ambiance created the perfect getaway Thank's for your
+                    service."</p>
+                <div class="star-rating">
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9734;</span>
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Steve Flemmine</h5>
-                        <p class="card-text">"Azure Dreams Hotel surpassed our expectations! From the warm welcome to
-                            the impeccable service, every moment was
-                            delightful. Can't wait to return!"</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 5 hour ago</small></p>
-                    </div>
+            </div>
+        </div>
+
+        <div class="feedback-card">
+            <img src="assets/image/people 3.png" alt="Customer Photo" class="customer-photo">
+            <div class="feedback-content">
+                <h3 class="customer-name">Steve Flemmine</h3>
+                <p class="customer-feedback">"Azure Dreams Hotel surpassed our expectations! From the warm welcome to
+                    the impeccable service, every moment was
+                    delightful. Can't wait to return!"</p>
+                <div class="star-rating">
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9734;</span>
                 </div>
             </div>
         </div>
